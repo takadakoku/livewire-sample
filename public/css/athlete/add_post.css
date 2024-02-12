@@ -1,0 +1,49 @@
+#upload_images {
+    width: 360px;
+    height: 300px;
+    background-color: #c9c9c9;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#upload_images i {
+  font-size: 70px;
+  text-align: -moz-right;
+  padding-top: 80px;
+  padding-bottom: 25px;
+}
+
+#input-flyer{
+    margin: auto;
+}
+
+#upload-btn {
+  border-bottom: solid 3px #d6d6d6;
+  padding-bottom: 50px;
+}
+
+#post_content textarea{
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  height: 300px;
+  font-size: 150%;
+}
+
+
+
+#submit-btn {
+  text-align: center;
+  height: 300px;
+  padding-top: 100px;
+}
+
+#submit-btn button{
+    font-size: 200%;
+}
+
+.invalid_feedback {
+  color: #dc3545;
+}
+

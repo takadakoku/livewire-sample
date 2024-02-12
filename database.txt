@@ -1,0 +1,35 @@
+life-power-inc
+    Users Table:
+        user_id (Primary Key)
+        username
+        email
+        password_hash
+        bio
+        profile_picture_url
+        created_at
+
+    Posts Table:
+        post_id (Primary Key)
+        user_id (Foreign Key referencing Users table)
+        content
+        image_url
+        created_at
+
+    Likes Table:
+        like_id (Primary Key)
+        user_id (Foreign Key referencing Users table)
+        post_id (Foreign Key referencing Posts table)
+        created_at
+
+    Comments Table:
+        comment_id (Primary Key)
+        user_id (Foreign Key referencing Users table)
+        post_id (Foreign Key referencing Posts table)
+        comment_text
+        created_at
+
+    Followers Table:
+        follower_id (Primary Key)
+        user_id (Foreign Key referencing Users table, representing the user being followed)
+        follower_user_id (Foreign Key referencing Users table, representing the follower)
+        created_at

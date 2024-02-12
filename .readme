@@ -1,0 +1,10 @@
+## clear cashe
+> php artisan cache:clear
+
+## set app url
+
+config/livewire.php
+> 'asset_url' => 'http://xxx/xxx/public'
+
+## artisan command for creating livewire file
+> php artisan make:livewire Sample
